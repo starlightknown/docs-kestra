@@ -6,8 +6,6 @@
                 Workflow Orchestration Platform
             </h2>
 
-            <NuxtLink class="btn btn-primary btn-lg" href="/preview-access" target="_blank">Kestra Live Demo</NuxtLink>
-
             <div class="features">
                 <div v-for="feature in features" :key="feature.title" class="feature">
                     <component :is="feature.icon" class="icon"/>
@@ -67,8 +65,8 @@
     const leadIndicators = computed(() => [
         {title: "Contributors", value: data.value?.contributors},
         {title: "GitHub Stars", value: numberOfStargazersFormatted.value},
-        {title: "Kestra Deployments", value: "70k"},
-        {title: "Workflows Executed", value: "300m+"},
+        {title: "Kestra Deployments", value: "80k"},
+        {title: "Workflows Executed", value: "400m+"},
     ])
 </script>
 

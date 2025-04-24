@@ -161,12 +161,13 @@ export default defineNuxtConfig({
                     "Build with Kestra": [
                         "Concepts",
                         "Workflow Components",
+                        "Multi-Language Script Tasks",
                         "Version Control & CI/CD",
                         "Plugin Developer Guide",
                         "How-to Guides"
                     ],
                     "Scale with Kestra": [
-                        "Enterprise Edition",
+                        "Cloud & Enterprise Edition",
                         "Task Runners",
                         // "Worker Groups",
                         "Best Practices"
@@ -308,6 +309,7 @@ export default defineNuxtConfig({
         '/tutorial-videos': {redirect: '/tutorial-videos/all'},
         '/community-guidelines': {redirect: '/docs/getting-started/community-guidelines'},
         '/docs/tutorial/docker': {redirect: '/docs/tutorial/scripts'},
+        '/docs/workflow-components/tasks/scripts': {redirect: '/docs/scripts'},
         '/t/**': {proxy: 'https://eu.posthog.com/**'},
     },
 

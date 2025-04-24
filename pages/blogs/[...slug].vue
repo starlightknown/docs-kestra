@@ -223,7 +223,6 @@
 
         @include media-breakpoint-up(xxl) {
             padding-right: calc($spacer * 2.75);
-            padding-left: calc($spacer * 7);
         }
 
         img {
